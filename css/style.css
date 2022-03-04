@@ -1,0 +1,365 @@
+body {
+  background-color: beige;
+  background-image: url("https://uploads.codesandbox.io/uploads/user/efe55e7b-7311-4e66-95b5-582406568c23/c5Ik-fondookok.jpg");
+  font-family: "Bebas Neue", cursive;
+  /* background-repeat: no-repeat;*/
+}
+
+#enlaces {
+  font-size: 30px;
+  text-decoration: none;
+  color: #f21b1b;
+}
+
+.presentacion {
+  font-size: 30px;
+  text-align: center;
+}
+
+.portada {
+  background-attachment: fixed;
+}
+
+.titulos {
+  font-size: 50px;
+  color: white;
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  /*border: 1px solid #000000;*/
+  /* background: rgb(0, 0, 0);*/
+  padding: 20px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.flex-container_2 {
+  display: flex;
+  /* border: 1px solid #000000;*/
+  /*background: rgb(0, 0, 0);*/
+  padding: 20px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  padding-top: 200px;
+}
+
+.flex-container_3 {
+  display: flex;
+  /*border: 1px solid #000000;*/
+  /*background: rgb(2, 22, 15);*/
+  padding: 20px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  /*justify-content: space-evenly;*/
+  align-items: flex-start;
+  padding-top: 200px;
+}
+
+.flex-container_4 {
+  display: flex;
+  /* border: 1px solid #000000;*/
+  /*background: rgb(2, 22, 15);*/
+  padding: 20px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  padding-top: 200px;
+}
+
+.flex-container_5 {
+  display: flex;
+  /*border: 1px solid #000000;*/
+  /*background: rgb(0, 0, 0);*/
+  padding: 20px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: left;
+  /*justify-content: space-evenly;*/
+  align-items: flex-start;
+  padding-top: 200px;
+  padding-left: 40px;
+}
+.caja {
+  /*border: 1px solid #ccc;*/
+  background-color: rgb(red, rgb(0, 39, 0), blue);
+  color: black;
+  font-weight: bold;
+  width: 120px;
+  height: 120px;
+}
+
+.c1 {
+  /*background: blue;*/
+  width: 100%;
+  height: 500px;
+}
+
+.c2 {
+  /*background: #bf0426;*/
+  background: #f2884b;
+  width: 300px;
+  height: 300px;
+  border-radius: 12px;
+  border: 8px solid #590202;
+  animation-name: example;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+  from {
+    border: 8px solid #590202;
+  }
+  to {
+    border: 8px solid #f21b1b;
+  }
+  from {
+    border: 8px solid #f21b1b;
+  }
+  to {
+    border: 8px solid #590202;
+  }
+}
+
+.c3 {
+  /* background: #bf0404;*/
+  background: #f2884b;
+  width: 300px;
+  height: 300px;
+  border-radius: 12px;
+  border: 8px solid #590202;
+  animation-name: example;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.c4 {
+  width: 300px;
+  height: 300px;
+  background: #f2884b;
+  border-radius: 12px;
+  border: 8px solid #590202;
+  animation-name: example;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.c5 {
+  /*background: blue;*/
+  width: 100%;
+}
+
+.c6 {
+  background: lightgreen;
+  background-image: url("https://uploads.codesandbox.io/uploads/user/efe55e7b-7311-4e66-95b5-582406568c23/7Wnw-ac+dc+7.jpg");
+  width: 500px;
+  height: 500px;
+  background-repeat: no-repeat;
+  border-radius: 7px;
+}
+
+.c7 {
+  background: red;
+  background-image: url("https://uploads.codesandbox.io/uploads/user/efe55e7b-7311-4e66-95b5-582406568c23/wzvf-kiss.jpg");
+  width: 500px;
+  height: 500px;
+  border-radius: 7px;
+}
+
+.c8 {
+  background: orange;
+  background-image: url("https://uploads.codesandbox.io/uploads/user/efe55e7b-7311-4e66-95b5-582406568c23/ds5r-korn.jpg");
+  width: 500px;
+  height: 500px;
+  border-radius: 7px;
+}
+
+.tabla_precios {
+  width: 220px;
+  height: 220px;
+  /*background-color: #f2b56b;*/
+  color: #f2b56b;
+}
+
+.texto_horarios {
+  text-align: center;
+  font-size: 27px;
+}
+
+.reservas {
+  padding-top: 200px;
+  background-color: black;
+  /* opacity: 80%;*/
+  padding-bottom: 100px;
+}
+
+.c32 {
+  width: 700px;
+  height: 400px;
+}
+
+.c33 {
+  width: 700px;
+  height: 700px;
+  background-image: url("https://uploads.codesandbox.io/uploads/user/efe55e7b-7311-4e66-95b5-582406568c23/hxFU-imagenanim.webp");
+  border-radius: 12px;
+}
+.costos {
+  padding-top: 300px;
+  padding-bottom: 100px;
+}
+.costoT {
+  font-size: 50px;
+}
+
+.c34 {
+  background-image: url("https://uploads.codesandbox.io/uploads/user/efe55e7b-7311-4e66-95b5-582406568c23/muKr-tuboleta.jpg");
+  border-radius: 15px;
+}
+
+.c35 {
+  background-image: url("https://uploads.codesandbox.io/uploads/user/efe55e7b-7311-4e66-95b5-582406568c23/ItXd-cinecolombia.jpg");
+  border-radius: 15px;
+}
+
+.c36 {
+  background-image: url("https://uploads.codesandbox.io/uploads/user/efe55e7b-7311-4e66-95b5-582406568c23/2jta-block.jfif");
+  border-radius: 15px;
+}
+
+.c36_5 {
+  background-image: url("https://uploads.codesandbox.io/uploads/user/efe55e7b-7311-4e66-95b5-582406568c23/8m4J-cinepolis.jpg");
+  border-radius: 15px;
+}
+
+.c37 {
+  width: 100%;
+}
+.c38 {
+  background-image: url("https://uploads.codesandbox.io/uploads/user/efe55e7b-7311-4e66-95b5-582406568c23/QEhh-cocacola2.png");
+  border-radius: 90px;
+}
+.c39 {
+  background-image: url("https://uploads.codesandbox.io/uploads/user/efe55e7b-7311-4e66-95b5-582406568c23/RepO-vans2.png");
+}
+
+.c40 {
+  background-image: url("https://uploads.codesandbox.io/uploads/user/efe55e7b-7311-4e66-95b5-582406568c23/TzTK-fender.gif");
+  border-radius: 90px;
+}
+.c41 {
+  background-image: url("https://uploads.codesandbox.io/uploads/user/efe55e7b-7311-4e66-95b5-582406568c23/1S5V-burger+king.png");
+  border-radius: 90px;
+}
+.c411 {
+  background-image: url("https://uploads.codesandbox.io/uploads/user/efe55e7b-7311-4e66-95b5-582406568c23/YcsH-gap.png");
+  border-radius: 90px;
+}
+.c412 {
+  background-image: url("https://uploads.codesandbox.io/uploads/user/efe55e7b-7311-4e66-95b5-582406568c23/sQfl-huawei.jfif");
+  border-radius: 90px;
+}
+.c413 {
+  background-image: url("https://uploads.codesandbox.io/uploads/user/efe55e7b-7311-4e66-95b5-582406568c23/1NdQ-totto.jpg");
+  border-radius: 90px;
+}
+.c414 {
+  background-image: url("https://uploads.codesandbox.io/uploads/user/efe55e7b-7311-4e66-95b5-582406568c23/P5Ko-mc2.jfif");
+  border-radius: 90px;
+}
+.c415 {
+  background-image: url("https://uploads.codesandbox.io/uploads/user/efe55e7b-7311-4e66-95b5-582406568c23/ThNH-nike.jpg");
+  border-radius: 90px;
+}
+.c416 {
+  background-image: url("https://uploads.codesandbox.io/uploads/user/efe55e7b-7311-4e66-95b5-582406568c23/BIYp-peavey.jpg");
+  border-radius: 90px;
+}
+.c417 {
+  background-image: url("https://uploads.codesandbox.io/uploads/user/efe55e7b-7311-4e66-95b5-582406568c23/5h2V-claro.jpg");
+  border-radius: 90px;
+}
+.c418 {
+  background-image: url("https://uploads.codesandbox.io/uploads/user/efe55e7b-7311-4e66-95b5-582406568c23/EyDW-pse.png");
+  border-radius: 90px;
+}
+.c419 {
+  background-image: url("https://uploads.codesandbox.io/uploads/user/efe55e7b-7311-4e66-95b5-582406568c23/J5vd-rcn.png");
+  border-radius: 90px;
+}
+.c420 {
+  background-image: url("https://uploads.codesandbox.io/uploads/user/efe55e7b-7311-4e66-95b5-582406568c23/H6vU-vid.png");
+  border-radius: 90px;
+}
+.c421 {
+  background-image: url("https://uploads.codesandbox.io/uploads/user/efe55e7b-7311-4e66-95b5-582406568c23/cOSq-rappi.png");
+  border-radius: 90px;
+}
+.c422 {
+  background-image: url("https://uploads.codesandbox.io/uploads/user/efe55e7b-7311-4e66-95b5-582406568c23/6o0m-exito.png");
+  border-radius: 90px;
+}
+.c423 {
+  background-image: url("https://uploads.codesandbox.io/uploads/user/efe55e7b-7311-4e66-95b5-582406568c23/QOQk-d1.png");
+  border-radius: 90px;
+}
+.c424 {
+  background-image: url("https://uploads.codesandbox.io/uploads/user/efe55e7b-7311-4e66-95b5-582406568c23/j1bp-postobon.jfif");
+  border-radius: 90px;
+}
+.c425 {
+  background-image: url("https://uploads.codesandbox.io/uploads/user/efe55e7b-7311-4e66-95b5-582406568c23/zG3J-everlast.jpg");
+  border-radius: 90px;
+}
+.c426 {
+  background-image: url("https://uploads.codesandbox.io/uploads/user/efe55e7b-7311-4e66-95b5-582406568c23/Qw4D-converse.jpg");
+  border-radius: 90px;
+}
+
+.c46 {
+  width: 100%;
+}
+.c42 {
+  background-image: url("https://uploads.codesandbox.io/uploads/user/efe55e7b-7311-4e66-95b5-582406568c23/wvKb-twitter.png");
+}
+.c43 {
+  background-image: url("https://uploads.codesandbox.io/uploads/user/efe55e7b-7311-4e66-95b5-582406568c23/Y6Dt-youtube.png");
+}
+.c44 {
+  background-image: url("https://uploads.codesandbox.io/uploads/user/efe55e7b-7311-4e66-95b5-582406568c23/MHYS-facebook.png");
+  border-radius: 15px;
+}
+.c45 {
+  background-image: url("https://uploads.codesandbox.io/uploads/user/efe55e7b-7311-4e66-95b5-582406568c23/4k5A-instagram.png");
+}
+.c8_5 {
+  border: 1px solid #ccc;
+  width: 96.1%;
+}
+.c10 {
+  border: 1px solid #ccc;
+}
+
+.precios {
+  color: white;
+}
+
+#texto {
+  color: white;
+}
+
+.redes {
+  width: 50px;
+  height: 50px;
+}
